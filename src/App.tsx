@@ -1,7 +1,7 @@
-import { greet } from "./utils/greet";
+import ControlledTextArea from "./paste-area";
 
 function App(): JSX.Element {
-  return <h1>{greet("World")}</h1>;
+  return <ControlledTextArea/>;
 }
 
 export default App;
