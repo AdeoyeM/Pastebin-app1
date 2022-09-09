@@ -1,13 +1,11 @@
 .inputText {
-    height: 300px;
-    width: 400px;
-    border: 5px solid blue
-    
-  }
-  
-  .inputBox {
-    border: 7px solid yellow;
-    height: 400px;
-    width: 410px
-  }
-  
+  height: 300px;
+  width: 400px;
+  border: 5px solid blue;
+}
+
+.inputBox {
+  border: 7px solid yellow;
+  height: 400px;
+  width: 410px;
+}

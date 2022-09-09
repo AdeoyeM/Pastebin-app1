@@ -6,27 +6,20 @@ function ControlledTextArea(): JSX.Element {
 
   return (
     <div className="inputBox">
-      <div >
-          <textarea className="inputText"
+      <div>
+        <textarea
+          className="inputText"
           value={typedMessage}
           onChange={(event) => {
             setTypedMessage(event.target.value);
-          }}/>
+          }}
+        />
       </div>
 
       <div>
-        <button
-          onClick={() =>
-            console.log(
-              typedMessage
-            )
-          }
-        >
-          Submit
-        </button>
+        <button onClick={() => console.log(typedMessage)}>Submit</button>
       </div>
     </div>
-    
   );
 }
 
